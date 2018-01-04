@@ -6,7 +6,7 @@
 import os,sys,commands,time,json,threading
 import paramiko as pmk
 
-src_hosts = ('60.205.166.72','59.110.11.16','60.205.166.74','101.201.222.104')
+src_hosts = ('xxxx','xxxx','xxxx','xxxx')
 src_ports = [ '2282' for i in range(1,5) ]
 src_users = [ 'root' for i in range(1,5) ]
 src_dirs = [ '/backup_every_table','/backup_every_table','/backup_every_table','/www/backup/backup_every_tables/']
